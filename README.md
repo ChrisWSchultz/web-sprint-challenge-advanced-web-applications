@@ -35,6 +35,7 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 2. What steps can you take in your web apps to keep your data secure?
 
     Hashing and Salting (encrypting the data well) of stored local data and the use of authentication on routes.
+    The removal of all keys or other sensitive config data to .env files that are gitignored.
 
 3. Describe how web servers work.
 

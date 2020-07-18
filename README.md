@@ -39,14 +39,15 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 3. Describe how web servers work.
 
-    A webserver like nginx or apache? The server gets a request, usually on port 80 or 443, then matches it against a site and directs it there.
+    A webserver like nginx or apache? The server gets a request, usually on port 80(http) or 443(https), 
+    then matches it against a site(based on the site configs) and directs it there.
     Once there the request gets processed and returns a response. In a nutshell. Lots more to it than that though.
 
 4. Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
     
-    C - create, POST - create a new thing, or for passing data
-    R - read, GET - general request, returns information
-    U - update, PUT - update a thing that already exists
+    C - create, POST - create a new thing, or for passing data(login, request body, etc).
+    R - read, GET - general request, returns information.
+    U - update, PUT - update a thing that already exists.
     D - delete/destroy, DELETE - remove a thing that exists, although I imagine soft-deletes are pretty common.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
